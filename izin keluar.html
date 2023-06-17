@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pengajuan Dispensasi Peserta Didik</title>
+</head>
+<body>
+    <form action="submit.php" method="POST"></form>
+        <p>Nama Lengkap: <input type="text" name="nama" /></p>
+        <p>Kelas: <input type="text" name="kelas" /></p>
+        <p>Alasan: <input type="text" name="alasan" /></p>
+        <p>Keluar pada jam: <input type="time" name="keluarpadajam" /></p>
+        <p>Mata Pelajaran: <input type="text" name="matapelajaran" /></p>
+        <p>Bukti Perizinan dari Wali Kelas: <input type="file" name="foto" /><br /></p>
+        <p>Bukti Perizinan dari Guru Mapel: <input type="file" name="foto" /><br /></p>
+        <p>Apakah Sudah Mendapat Perizinan dari Guru Piket:
+            <input type="radio" name="apakahsudahmendapatperizinandarigurupiket" value="ya"> Ya
+            <input type="radio" name="apakahsudahmendapatperizinandarigurupiket" value="tidak"> Tidak</p>
+            <input type="button" name="submit" value="submit" />
+    </form>
+</body>
+</html>
